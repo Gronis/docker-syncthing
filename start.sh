@@ -13,4 +13,6 @@ fi
 xmlstarlet ed -L -u "/configuration/gui/address" -v "0.0.0.0:8384" "$CONFIG_FILE"
 chown -R syncthing:syncthing "$HOME"
 
-exec su - syncthing -c /go/bin/syncthing
+exec su - syncthing -c /go/bin/syncthing &
+exec /go/bin/syncthing-inotify
+

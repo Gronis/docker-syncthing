@@ -3,7 +3,7 @@ version: '2'
 services:
 
   syncthing:
-    image: istepanov/syncthing
+    image: gronis/syncthing
     restart: always
     ports:
       - "22000:22000"
