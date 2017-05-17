@@ -39,7 +39,7 @@ You can also start the container manually without using Docker Compose:
         -p 8384:8384 -p 22000:22000 -p 21027:21027/udp \
         -v $CONFIG_VOLUME:/home/syncthing/.config/syncthing \
         -v $DATA_VOLUME:/home/syncthing/Sync \
-        istepanov/syncthing
+        gronis/syncthing
 
 _Note_: `--restart always` (or `--restart on-failure` or `--restart unless-stopped`) is required because Syncthing restarts itself during auto-update. Without this option container just stops after first update.
 
@@ -49,7 +49,7 @@ The image itself tends to be minimal and doesn't provide any HTTPS functionality
 
 The easiest way to do it is by using Let's Encrypt certifcates and 3 additional containers: [official Nginx image](https://hub.docker.com/_/nginx/), [jwilder/docker-gen](https://github.com/jwilder/docker-gen) image to auto-generate Nginx configs and [jrcs/letsencrypt-nginx-proxy-companion](https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion) image to auto-generate/auto-renew SSL certificates. To orchestrate all containers, we'll use [docker-compose-https.yml](docker-compose-https.yml) file:
 
-    wget https://raw.githubusercontent.com/istepanov/docker-syncthing/master/docker-compose-https.yml
+    wget https://raw.githubusercontent.com/Gronis/docker-syncthing/master/docker-compose-https.yml
 
     # before launching, we need to prepare 2 docker volumes:
     docker volume create --driver local --name certs
