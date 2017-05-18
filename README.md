@@ -1,14 +1,13 @@
-This image is a fork of istepanov/syncthing docker container, but with added support for [syncthing-inotify](https://github.com/syncthing/syncthing-inotify)
+This image is a fork of [istepanov/syncthing](https://hub.docker.com/r/istepanov/syncthing/~/dockerfile/) docker container with the exact same setup, but with added support for [syncthing-inotify](https://github.com/syncthing/syncthing-inotify)
 
-istepanov/syncthing
+gronis/syncthing
 ===================
 
-[![Docker Stars](https://img.shields.io/docker/stars/istepanov/syncthing.svg)](https://hub.docker.com/r/istepanov/syncthing/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/istepanov/syncthing.svg)](https://hub.docker.com/r/istepanov/syncthing/)
+[![Docker Stars](https://img.shields.io/docker/stars/gronis/syncthing.svg)](https://hub.docker.com/r/istepanov/syncthing/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/gronis/syncthing.svg)](https://hub.docker.com/r/istepanov/syncthing/)
 [![Docker Build](https://img.shields.io/docker/automated/gronis/syncthing.svg)](https://hub.docker.com/r/gronis/syncthing/)
-[![Layers](https://images.microbadger.com/badges/image/istepanov/syncthing.svg)](https://microbadger.com/images/istepanov/syncthing)
-[![Version](https://images.microbadger.com/badges/version/istepanov/syncthing.svg)](https://microbadger.com/images/istepanov/syncthing)
-[![Join the chat at https://gitter.im/istepanov/docker-syncthing](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/istepanov/docker-syncthing?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Layers](https://images.microbadger.com/badges/image/gronis/syncthing.svg)](https://microbadger.com/images/gronis/syncthing)
+[![Version](https://images.microbadger.com/badges/version/gronis/syncthing.svg)](https://microbadger.com/images/gronis/syncthing)
 
 [Syncthing](http://syncthing.net/) Docker image
 
@@ -16,7 +15,7 @@ istepanov/syncthing
 
 Simpliest way to run this container is by using [docker-compose.yml](docker-compose.yml) file. Simply run:
 
-    wget https://raw.githubusercontent.com/istepanov/docker-syncthing/master/docker-compose.yml
+    wget https://raw.githubusercontent.com/gronis/docker-syncthing/master/docker-compose.yml
     docker-compose up -d
 
 Then access Syncthing Web UI at [http://localhost:8384/]().
