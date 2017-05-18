@@ -3,8 +3,8 @@ This image is a fork of [istepanov/syncthing](https://hub.docker.com/r/istepanov
 gronis/syncthing
 ===================
 
-[![Docker Stars](https://img.shields.io/docker/stars/gronis/syncthing.svg)](https://hub.docker.com/r/istepanov/syncthing/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/gronis/syncthing.svg)](https://hub.docker.com/r/istepanov/syncthing/)
+[![Docker Stars](https://img.shields.io/docker/stars/gronis/syncthing.svg)](https://hub.docker.com/r/gronis/syncthing/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/gronis/syncthing.svg)](https://hub.docker.com/r/gronis/syncthing/)
 [![Docker Build](https://img.shields.io/docker/automated/gronis/syncthing.svg)](https://hub.docker.com/r/gronis/syncthing/)
 [![Layers](https://images.microbadger.com/badges/image/gronis/syncthing.svg)](https://microbadger.com/images/gronis/syncthing)
 [![Version](https://images.microbadger.com/badges/version/gronis/syncthing.svg)](https://microbadger.com/images/gronis/syncthing)
