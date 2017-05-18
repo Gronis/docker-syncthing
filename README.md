@@ -1,4 +1,4 @@
-This image is a fork of [istepanov/syncthing](https://hub.docker.com/r/istepanov/syncthing/~/dockerfile/) docker container with the exact same setup, but with added support for [syncthing-inotify](https://github.com/syncthing/syncthing-inotify)
+This image is a fork of [istepanov/syncthing](https://hub.docker.com/r/istepanov/syncthing/) docker container with the exact same setup, but with added support for [syncthing-inotify](https://github.com/syncthing/syncthing-inotify)
 
 gronis/syncthing
 ===================
